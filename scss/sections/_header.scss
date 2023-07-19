@@ -1,0 +1,65 @@
+
+.navbar {
+    background-image: url(../resources/fondo-smoke.jpg) !important;
+    /* se utiliza !important para pisar el important en el backround de bootstrap */
+    background-size: cover;
+
+    .alas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 50px;
+
+        .fuente {
+            color: rgb(255, 215, 112);
+            font-family: "Rari";
+            font-size: 125%;
+            font-weight: 600;
+            margin: auto;
+            text-decoration: none;
+        }
+    }
+}
+
+.alas img {
+    width: 125px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-content: space-between;
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show {
+        color: rgb(255, 215, 112);
+        font-family: "Rari";
+        font-size: 125%;
+        font-weight: 600;
+    }
+
+    .dropdown-menu {
+        background-color: rgb(255, 215, 112);
+    }
+
+    .hover:hover {
+        color: #252424 !important;
+        background-color: rgb(255, 215, 112);
+        border-radius: 5%;
+    }
+
+    .dropdown-item:hover {
+        background-color: rgb(249, 225, 165);
+    }
+}
+
+.btn {
+    color: rgb(255, 215, 112);
+    border-color: rgb(255, 215, 112);
+}
+
+header input {
+    background-color: rgb(255, 215, 112);
+}
+

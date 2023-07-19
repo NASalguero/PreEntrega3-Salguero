@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Rari";
+    src: url(../resources/fonts/Altheria-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@import './sections/header';
+@import './sections/main';
+@import './sections/footer';
+@import './sections/fragancias';
+@import './sections/preguntas-frecuentes';
+@import './sections/carrito';
+@import './sections/contacto';
+
+
+
+
+@media (max-width:426px) {
+    .navbar-toggler {
+        background-color: rgb(255, 215, 112);
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .btn-mq-flex {
+        margin: 10px 85px;
+        justify-content: center;
+    }
+
+    .alas {
+        padding: 15px 110px;
+    }
+
+    .fuente {
+        justify-content: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div1f {
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .div2f {
+        height: auto;
+    }
+
+    /* ************************** MAIN INDEX ************************** */
+    .hero {
+        width: 425px;
+        height: 230px;
+    }
+
+    .h2-main {
+        margin: 10px 30px;
+        text-align: center;
+    }
+
+    .iframe-div {
+        margin: auto;
+    }
+
+    .iframe-div iframe {
+        width: 420px;
+    }
+
+    .perf-banner img {
+        width: 425px;
+        height: 140px;
+        align-items: center;
+    }
+
+}

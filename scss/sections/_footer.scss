@@ -1,0 +1,54 @@
+
+.footer {
+    background-image: url(../resources/fondo-smoke.jpg);
+    background-size: cover;
+    border: groove #f5eb5b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 215, 112);
+    font-weight: 600;
+
+    .div1f {
+        display: flex;
+        width: 400px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div2f {
+        display: flex;
+        height: 300px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+.footer a {
+    color: rgb(255, 215, 112);
+    text-decoration: none;
+    font-family: "Rari";
+    font-size: large;
+    padding: 8px;
+}
+
+.footer a:hover {
+    background-color: rgb(255, 215, 112);
+    color: #252424;
+    border-radius: 5px;
+}
+
+.div1f ul li {
+    margin: 30px;
+}
+
+.div2f ul li {
+    margin: 15px;
+}
+
+h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}

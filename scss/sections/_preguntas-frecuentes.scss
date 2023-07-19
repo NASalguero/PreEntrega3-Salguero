@@ -1,0 +1,40 @@
+
+main div p a {
+    text-decoration: none;
+    color: #de1212;
+}
+
+.main-faqs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+.main-faqs div {
+    width: 800px;
+}
+
+.accordion-button {
+    background-image: url(../resources/fondo.jpg);
+    color: rgb(255, 215, 112);
+    background-size: cover;
+    background-position: center;
+}
+
+.accordion-button:hover {
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(255, 215, 112);
+}
+
+.accordion-body {
+    background-image: url(../resources/fondo-humo.jpeg);
+    color: rgb(255, 215, 112);
+    background-size: cover;
+    background-position: center;
+}
+
