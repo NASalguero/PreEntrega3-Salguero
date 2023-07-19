@@ -35,3 +35,16 @@
 .div-carrito a:hover {
     color: #ffffff;
 }
+
+@media (max-width:426px) {
+    .div-carrito{
+        flex-direction: column;
+        width: auto;
+    }
+    .main-carrito h3{
+        margin: 10px 0;
+    }
+    .main-carrito{
+        height: auto;
+    }
+}

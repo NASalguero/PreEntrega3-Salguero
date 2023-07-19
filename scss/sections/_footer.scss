@@ -52,3 +52,17 @@ h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
 }
+
+@media (max-width:426px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .div1f{
+        height: auto;
+        padding-top: 10px;
+    }
+    .div2f{
+        height: auto;
+    }
+}

@@ -38,3 +38,14 @@ main div p a {
     background-position: center;
 }
 
+@media (max-width:426px) {
+    .main-faqs div{
+        width: auto;
+    }
+    .accordion-body {
+        background-image: url(../resources/fondo-humo.jpeg);
+        color: rgb(255, 215, 112);
+        background-size: cover;
+        background-position: top;
+    }
+}
