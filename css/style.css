@@ -55,17 +55,19 @@ header input {
   background-color: #ffd770; }
 
 @media (max-width: 426px) {
+  .alas {
+    padding: 15px 110px; }
+  .navbar .container-fluid {
+    justify-content: center; }
   .navbar-toggler {
     background-color: #ffd770; }
   .links {
     display: flex;
     flex-direction: column;
-    padding: 15px; }
+    padding: 10px 50px; }
   .btn-mq-flex {
     margin: 10px 85px;
     justify-content: center; }
-  .alas {
-    padding: 15px 110px; }
   .fuente {
     justify-content: center; } }
 
@@ -136,24 +138,25 @@ h3 {
   color: #f0c454; }
 
 @media (max-width: 426px) {
-  .hero {
+  .main .hero {
     width: 425px;
     height: 230px; }
-  .h2-main {
-    margin: 10px 30px;
-    text-align: center; }
-  .iframe-div {
+  .main .iframe-div {
     margin: auto; }
-  .iframe-div iframe {
-    width: 420px; }
-  .oferta {
+    .main .iframe-div .h2-main {
+      margin: 10px 30px;
+      text-align: center; }
+  .main .oferta {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto; }
-  .perf-banner img {
+  .main .perf-banner .banner {
     width: 425px;
-    height: 140px;
-    align-items: center; } }
+    height: 110px; }
+  h3 {
+    margin-top: 5px; }
+  .iframe-div iframe {
+    width: 420px; } }
 
 .footer {
   background-image: url(../resources/fondo-smoke.jpg);
@@ -268,6 +271,7 @@ h6 {
 
 @media (max-width: 426px) {
   .fragancias {
+    grid-template-columns: none;
     grid-template-areas: none; }
   h3 {
     text-align: center; } }
@@ -360,6 +364,11 @@ main div p a {
   justify-content: space-around;
   align-items: center;
   height: 850px; }
+  .main-contacto .div-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px; }
 
 .main-contacto p {
   color: #f0c454;
@@ -383,12 +392,6 @@ main div p a {
   border-radius: 5px;
   margin: 10px 0; }
 
-.div-contacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px; }
-
 .div-contacto br {
   display: none; }
 
@@ -397,43 +400,7 @@ main div p a {
   width: 250px; }
 
 @media (max-width: 426px) {
+  .main-contacto {
+    height: auto; }
   .div-contacto p {
     text-align: center; } }
-
-@media (max-width: 426px) {
-  .navbar-toggler {
-    background-color: #ffd770; }
-  .links {
-    display: flex;
-    flex-direction: column;
-    padding: 15px; }
-  .btn-mq-flex {
-    margin: 10px 85px;
-    justify-content: center; }
-  .alas {
-    padding: 15px 110px; }
-  .fuente {
-    justify-content: center; }
-  .footer {
-    display: flex;
-    flex-direction: column; }
-  .div1f {
-    height: auto;
-    padding-top: 10px; }
-  .div2f {
-    height: auto; }
-  /* ************************** MAIN INDEX ************************** */
-  .hero {
-    width: 425px;
-    height: 230px; }
-  .h2-main {
-    margin: 10px 30px;
-    text-align: center; }
-  .iframe-div {
-    margin: auto; }
-  .iframe-div iframe {
-    width: 420px; }
-  .perf-banner img {
-    width: 425px;
-    height: 140px;
-    align-items: center; } }

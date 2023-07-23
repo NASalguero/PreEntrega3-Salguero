@@ -96,33 +96,32 @@ h3 {
 }
 
 @media (max-width:426px) {
-    .hero {
-        width: 425px;
-        height: 230px;
+    .main{
+        .hero {
+            width: 425px;
+            height: 230px;
+        }
+        .iframe-div {
+            margin: auto;
+            .h2-main {
+                margin: 10px 30px;
+                text-align: center;
+            }
+        }
+        .oferta {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
+        .perf-banner .banner {
+            width: 425px;
+            height: 110px;
+        }
     }
-
-    .h2-main {
-        margin: 10px 30px;
-        text-align: center;
+    h3{
+        margin-top: 5px;
     }
-
-    .iframe-div {
-        margin: auto;
-    }
-
     .iframe-div iframe {
         width: 420px;
-    }
-
-    .oferta {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-
-    .perf-banner img {
-        width: 425px;
-        height: 140px;
-        align-items: center;
     }
 }

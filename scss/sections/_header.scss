@@ -63,6 +63,12 @@ header input {
 }
 
 @media (max-width:426px) {
+    .alas {
+        padding: 15px 110px;
+    }
+    .navbar .container-fluid{
+        justify-content: center;
+    }
     .navbar-toggler {
         background-color: rgb(255, 215, 112);
     }
@@ -70,7 +76,7 @@ header input {
     .links {
         display: flex;
         flex-direction: column;
-        padding: 15px;
+        padding: 10px 50px;
     }
 
     .btn-mq-flex {
@@ -78,9 +84,7 @@ header input {
         justify-content: center;
     }
 
-    .alas {
-        padding: 15px 110px;
-    }
+
 
     .fuente {
         justify-content: center;

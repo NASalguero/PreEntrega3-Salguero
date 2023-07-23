@@ -72,8 +72,8 @@
 
 @media (max-width:426px) {
     .fragancias{
-        grid-template-areas: none
-        ;
+        grid-template-columns: none;
+        grid-template-areas: none;
     }
     h3{
         text-align: center;
