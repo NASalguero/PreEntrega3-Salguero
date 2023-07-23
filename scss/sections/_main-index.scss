@@ -3,7 +3,7 @@ main {
 }
 
 .main {
-    background-image: url(../resources/fondo-main1.jpg);
+    background-color: #edede8;
     background-size: cover;
 
     .hero {
@@ -20,7 +20,6 @@ main {
         margin: 30px 0;
 
         .h2-main {
-            background-color: rgb(249, 225, 165);
             margin-top: 10px;
             border-radius: 5px;
             padding: 0 8px;
@@ -39,23 +38,22 @@ main {
 
             .price {
                 color: #000000;
-                background-image: url(../resources/fondo.jpg);
+                background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
                 background-size: cover;
-                color: rgb(240, 196, 84);
+                color: rgb(255, 255, 255);
                 margin: 10px 0;
             }
         }
 
         .btn2 {
             border-radius: 5px;
-            color: rgb(255, 215, 112);
-            background-color: #252424;
+            color: rgb(255, 255, 255);
+            background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
             padding: 5px;
         }
 
         .hover2:hover {
-            background-color: rgb(249, 225, 165);
-            color: #252424;
+            color: #f4c537;
         }
     }
 
@@ -81,46 +79,52 @@ main img {
 }
 
 .of1 img {
-    width: 170px;
+    width: 190px;
     padding: 40px;
-    background-image: url(../resources/fondo-smoke.jpg);
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
     background-size: cover;
 }
 
 h3 {
     border-radius: 5px;
-    border: rgb(135, 131, 121) groove;
-    background-image: url(../resources/fondo.jpg);
+    padding: 3px;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
     background-size: cover;
-    color: rgb(240, 196, 84);
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width:426px) {
-    .main{
+    .main {
         .hero {
             width: 425px;
             height: 230px;
         }
+
         .iframe-div {
             margin: auto;
+
             .h2-main {
                 margin: 10px 30px;
                 text-align: center;
             }
         }
+
         .oferta {
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: auto;
         }
+
         .perf-banner .banner {
             width: 425px;
             height: 110px;
         }
     }
-    h3{
+
+    h3 {
         margin-top: 5px;
     }
+
     .iframe-div iframe {
         width: 420px;
     }

@@ -1,5 +1,5 @@
 .navbar {
-    background-image: url(../resources/fondo-smoke.jpg) !important;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%) !important;
     /* se utiliza !important para pisar el important en el backround de bootstrap */
     background-size: cover;
 
@@ -10,7 +10,7 @@
         padding: 0 50px;
 
         .fuente {
-            color: rgb(255, 215, 112);
+            color: rgb(255, 255, 255);
             font-family: "Rari";
             font-size: 125%;
             font-weight: 600;
@@ -32,7 +32,7 @@
 
     .navbar-nav .nav-link.active,
     .navbar-nav .nav-link.show {
-        color: rgb(255, 215, 112);
+        color: rgb(255, 255, 255);
         font-family: "Rari";
         font-size: 125%;
         font-weight: 600;
@@ -54,8 +54,11 @@
 }
 
 .btn {
-    color: rgb(255, 215, 112);
-    border-color: rgb(255, 215, 112);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color:  rgb(255, 215, 112);
 }
 
 header input {
@@ -66,9 +69,11 @@ header input {
     .alas {
         padding: 15px 110px;
     }
-    .navbar .container-fluid{
+
+    .navbar .container-fluid {
         justify-content: center;
     }
+
     .navbar-toggler {
         background-color: rgb(255, 215, 112);
     }

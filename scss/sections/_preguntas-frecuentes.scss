@@ -17,23 +17,23 @@ main div p a {
 }
 
 .accordion-button {
-    background-image: url(../resources/fondo.jpg);
-    color: rgb(255, 215, 112);
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
 }
 
 .accordion-button:hover {
-    color: #ffffff;
+    color: #dbbf1d;
 }
 
 .accordion-button:not(.collapsed) {
-    color: rgb(255, 215, 112);
+    color: rgb(255, 255, 255);
 }
 
 .accordion-body {
-    background-image: url(../resources/fondo-humo.jpeg);
-    color: rgb(255, 215, 112);
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
 }
@@ -43,7 +43,7 @@ main div p a {
         width: auto;
     }
     .accordion-body {
-        background-image: url(../resources/fondo-humo.jpeg);
+        background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
         color: rgb(255, 215, 112);
         background-size: cover;
         background-position: top;
