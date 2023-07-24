@@ -93,6 +93,26 @@ h3 {
     color: rgb(255, 255, 255);
 }
 
+@media (max-width:1025px) {
+    .main{
+        .hero{
+            width:1024px;
+            height: auto;
+        }
+        .perf-banner{
+            .banner{
+                width: 1024px;
+                height: auto;
+            }
+
+        }
+    }
+    .main h3{
+        text-align: center;
+        margin: 10px;
+    }
+}
+
 @media (max-width:769px) {
     .main{
         .hero{
@@ -110,10 +130,12 @@ h3 {
                 margin: 5px 0;
             }
         }
-        .perf-banner .banner{
+        .perf-banner{
+           .banner{
             width: 768px;
             height: auto;
-        }
+        } 
+        } 
     }
 }
 

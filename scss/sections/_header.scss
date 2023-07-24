@@ -57,29 +57,50 @@
     color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
 }
-.btn:hover{
-    background-color:  rgb(255, 215, 112);
+
+.btn:hover {
+    background-color: rgb(255, 215, 112);
 }
 
 header input {
     background-color: rgb(255, 215, 112);
 }
 
-@media (max-width:769px){
+@media (max-width:1025px) {
     .navbar{
         .alas{
-        padding-right: 0;
-    } 
-    .container-fluid{
-        padding: 0;
+            .fuente{
+                text-align: center;
+            }
+        }
+        .container-fluid{
+            display: flex;
+            flex-direction: column;
+        }
+        .links{
+            margin: 10px 0;
+        }
     }
-    .navbar-toggler{
-        background-color: rgb(255, 255, 255);
-    }
-    .links{
-        display: flex;
-        flex-direction: column;
-    }
+}
+
+@media (max-width:769px) {
+    .navbar {
+        .alas {
+            padding-right: 0;
+        }
+
+        .container-fluid {
+            padding: 0;
+        }
+
+        .navbar-toggler {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
 }
@@ -107,4 +128,3 @@ header input {
         justify-content: center;
     }
 }
-

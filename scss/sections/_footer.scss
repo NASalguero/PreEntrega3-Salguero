@@ -53,6 +53,18 @@ h6 {
     text-decoration: underline;
 }
 
+@media (max-width:1025px) {
+    .footer{
+        .div1f{
+            width: 250px;
+        }
+    }
+    .footer iframe{
+        width: 380px;
+        height: 290px;
+    }
+}
+
 @media (max-width:769px) {
     .footer{
         .div1f{
