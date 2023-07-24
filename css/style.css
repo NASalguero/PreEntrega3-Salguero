@@ -155,6 +155,10 @@ h3 {
   background-size: cover;
   color: white; }
 
+@media (max-width: 1441px) {
+  .main .perf-banner .banner {
+    width: 1440px; } }
+
 @media (max-width: 1025px) {
   .main .hero {
     width: 1024px;
