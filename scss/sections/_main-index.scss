@@ -93,6 +93,30 @@ h3 {
     color: rgb(255, 255, 255);
 }
 
+@media (max-width:769px) {
+    .main{
+        .hero{
+            width: 768px;
+            height: auto;
+        }
+        .h2-main{
+            text-align: center;
+        }
+        .oferta{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            .of1{
+                margin: 5px 0;
+            }
+        }
+        .perf-banner .banner{
+            width: 768px;
+            height: auto;
+        }
+    }
+}
+
 @media (max-width:426px) {
     .main {
         .hero {
