@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "Rari";
-    src: url(../resources/fonts/Altheria-Regular.ttf);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
 
 @import './sections/header';
 @import './sections/main-index';
