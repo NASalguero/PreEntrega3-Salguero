@@ -17,8 +17,8 @@ main div p a {
 }
 
 .accordion-button {
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, $oscuro 0%, $claro 100%);
+    color: $blanco;
     background-size: cover;
     background-position: center;
 }
@@ -28,12 +28,12 @@ main div p a {
 }
 
 .accordion-button:not(.collapsed) {
-    color: rgb(255, 255, 255);
+    color: $blanco;
 }
 
 .accordion-body {
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, $oscuro 0%, $claro 100%);
+    color: $blanco;
     background-size: cover;
     background-position: center;
 }
@@ -49,8 +49,8 @@ main div p a {
         width: auto;
     }
     .accordion-body {
-        background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-        color: rgb(255, 215, 112);
+        background-image: linear-gradient(to top, $oscuro 0%, $claro 100%);
+        color: $amarillento;
         background-size: cover;
         background-position: top;
     }

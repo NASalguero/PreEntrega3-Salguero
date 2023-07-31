@@ -1,12 +1,12 @@
 
 .footer {
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, $oscuro 0%, $claro 100%);
     background-size: cover;
     border: groove #fbfbfb;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: $blanco;
     font-weight: 600;
 
     .div1f {
@@ -27,7 +27,7 @@
 }
 
 .footer a {
-    color: rgb(255, 255, 255);
+    color: $blanco;
     text-decoration: none;
     font-family: "Rari";
     font-size: large;
@@ -35,7 +35,7 @@
 }
 
 .footer a:hover {
-    background-color: rgb(255, 215, 112);
+    background-color: $amarillento;
     color: #252424;
     border-radius: 5px;
 }

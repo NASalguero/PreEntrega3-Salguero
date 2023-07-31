@@ -37,22 +37,22 @@ main {
 
             .price {
                 color: #000000;
-                background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+                background-image: linear-gradient(to top, $oscuro 0%, $claro 100%);
                 background-size: cover;
-                color: rgb(255, 255, 255);
+                color: $blanco;
                 margin: 10px 0;
             }
         }
 
         .btn2 {
             border-radius: 5px;
-            color: rgb(255, 255, 255);
-            background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+            color: $blanco;
+            background-image: linear-gradient(to top, $oscuro 0%, $claro 100%);
             padding: 5px;
         }
 
         .hover2:hover {
-            color: #f4c537;
+            color: $amarillento;
         }
     }
 
@@ -80,16 +80,16 @@ main img {
 .of1 img {
     width: 190px;
     padding: 40px;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, $oscuro 0%, $claro 100%);
     background-size: cover;
 }
 
 h3 {
     border-radius: 5px;
     padding: 3px;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-image: linear-gradient(to top, $oscuro 0%, $claro 100%);
     background-size: cover;
-    color: rgb(255, 255, 255);
+    color: $blanco;
 }
 
 

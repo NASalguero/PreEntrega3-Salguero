@@ -11,7 +11,7 @@
 
 .header {
     .navbar {
-        background-image: linear-gradient(to top, #09203f 0%, #537895 100%) !important;
+        background-image: linear-gradient(to top, $oscuro 0%, $claro 100%) !important;
         /* se utiliza !important para pisar el important en el backround de bootstrap */
         background-size: cover;
 
@@ -22,7 +22,7 @@
             padding: 0 50px;
 
             .fuente {
-                color: rgb(255, 255, 255);
+                color: $blanco;
                 font-family: "Rari";
                 font-size: 50%;
                 font-weight: 600;
@@ -45,19 +45,19 @@
 
         .navbar-nav .nav-link.active,
         .navbar-nav .nav-link.show {
-            color: rgb(255, 255, 255);
+            color: $blanco;
             font-family: "Rari";
             font-size: 125%;
             font-weight: 600;
         }
 
         .dropdown-menu {
-            background-color: rgb(255, 215, 112);
+            background-color: $amarillento;
         }
 
         .hover:hover {
             color: #252424 !important;
-            background-color: rgb(255, 215, 112);
+            background-color: $amarillento;
             border-radius: 5%;
         }
 
@@ -67,16 +67,16 @@
     }
 
     .btn {
-        color: rgb(255, 255, 255);
-        border-color: rgb(255, 255, 255);
+        color: $blanco;
+        border-color: $blanco;
     }
 
     .btn:hover {
-        background-color: rgb(255, 215, 112);
+        background-color: $amarillento;
     }
 
     header input {
-        background-color: rgb(255, 215, 112);
+        background-color: $amarillento;
     }
 }
 
@@ -110,7 +110,7 @@
         }
 
         .navbar-toggler {
-            background-color: rgb(255, 255, 255);
+            background-color: $blanco;
         }
 
         .links {
@@ -131,7 +131,7 @@
     }
 
     .navbar-toggler {
-        background-color: rgb(255, 255, 255);
+        background-color: $blanco;
     }
 
     .links {
