@@ -7,54 +7,54 @@
   padding: 0;
   list-style-type: none; }
 
-.navbar {
+.header .navbar {
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%) !important;
   /* se utiliza !important para pisar el important en el backround de bootstrap */
   background-size: cover; }
-  .navbar .alas {
+  .header .navbar .alas {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 50px; }
-    .navbar .alas .fuente {
+    .header .navbar .alas .fuente {
       color: white;
       font-family: "Rari";
-      font-size: 125%;
+      font-size: 50%;
       font-weight: 600;
       margin: auto;
       text-decoration: none; }
 
-.alas img {
+.header .alas img {
   width: 125px; }
 
-.links {
+.header .links {
   display: flex;
   justify-content: center;
   margin: auto;
   align-content: space-between; }
-  .links .navbar-nav .nav-link.active,
-  .links .navbar-nav .nav-link.show {
+  .header .links .navbar-nav .nav-link.active,
+  .header .links .navbar-nav .nav-link.show {
     color: white;
     font-family: "Rari";
     font-size: 125%;
     font-weight: 600; }
-  .links .dropdown-menu {
+  .header .links .dropdown-menu {
     background-color: #ffd770; }
-  .links .hover:hover {
+  .header .links .hover:hover {
     color: #252424 !important;
     background-color: #ffd770;
     border-radius: 5%; }
-  .links .dropdown-item:hover {
+  .header .links .dropdown-item:hover {
     background-color: #f9e1a5; }
 
-.btn {
+.header .btn {
   color: white;
   border-color: white; }
 
-.btn:hover {
+.header .btn:hover {
   background-color: #ffd770; }
 
-header input {
+.header header input {
   background-color: #ffd770; }
 
 @media (max-width: 1025px) {
@@ -98,8 +98,7 @@ main {
   background-color: #edede8;
   background-size: cover; }
   .main .hero {
-    width: 1444px;
-    height: 700px; }
+    width: 100vw; }
   .main .iframe-div {
     display: flex;
     height: 400px;
@@ -135,7 +134,7 @@ main {
     display: flex;
     margin: 50px 0; }
     .main .perf-banner .banner {
-      width: auto; }
+      width: 100vw; }
   .main .main-pd-bot {
     padding-bottom: 20px; }
 
@@ -155,69 +154,12 @@ h3 {
   background-size: cover;
   color: white; }
 
-@media (max-width: 1441px) {
-  .main .perf-banner .banner {
-    width: 1440px; } }
-
-@media (max-width: 1300px) {
-  .main .perf-banner .banner {
-    width: 1300px; } }
-
-@media (max-width: 1200px) {
-  .main .perf-banner .banner {
-    width: 1200px; } }
-
-@media (max-width: 1150px) {
-  .main .perf-banner .banner {
-    width: 1150px; } }
-
-@media (max-width: 1125px) {
-  .main .perf-banner .banner {
-    width: 1125px; } }
-
-@media (max-width: 1100px) {
-  .main .perf-banner .banner {
-    width: 1100px; } }
-
-@media (max-width: 1090px) {
-  .main .perf-banner .banner {
-    width: 1090px; } }
-
-@media (max-width: 1080px) {
-  .main .perf-banner .banner {
-    width: 1080px; } }
-
-@media (max-width: 1070px) {
-  .main .perf-banner .banner {
-    width: 1070px; } }
-
-@media (max-width: 1055px) {
-  .main .perf-banner .banner {
-    width: 1055px; } }
-
-@media (max-width: 1040px) {
-  .main .perf-banner .banner {
-    width: 1040px; } }
-
-@media (max-width: 1030px) {
-  .main .perf-banner .banner {
-    width: 1030px; } }
-
 @media (max-width: 1025px) {
-  .main .hero {
-    width: 1024px;
-    height: auto; }
-  .main .perf-banner .banner {
-    width: 1024px;
-    height: auto; }
   .main h3 {
     text-align: center;
     margin: 10px; } }
 
 @media (max-width: 769px) {
-  .main .hero {
-    width: 768px;
-    height: auto; }
   .main .h2-main {
     text-align: center; }
   .main .oferta {
@@ -225,15 +167,9 @@ h3 {
     grid-template-columns: 1fr;
     grid-template-rows: auto; }
     .main .oferta .of1 {
-      margin: 5px 0; }
-  .main .perf-banner .banner {
-    width: 768px;
-    height: auto; } }
+      margin: 5px 0; } }
 
 @media (max-width: 426px) {
-  .main .hero {
-    width: 425px;
-    height: 230px; }
   .main .iframe-div {
     margin: auto; }
     .main .iframe-div .h2-main {
@@ -243,12 +179,9 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto; }
-  .main .perf-banner .banner {
-    width: 425px;
-    height: 110px; }
-  h3 {
+  .main h3 {
     margin-top: 5px; }
-  .iframe-div iframe {
+  .main .iframe-div iframe {
     width: 420px; } }
 
 .footer {

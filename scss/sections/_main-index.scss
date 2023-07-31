@@ -7,8 +7,7 @@ main {
     background-size: cover;
 
     .hero {
-        width: 1444px;
-        height: 700px;
+        width: 100vw;
     }
 
     .iframe-div {
@@ -62,7 +61,7 @@ main {
         margin: 50px 0;
 
         .banner {
-            width: auto;
+            width: 100vw;
 
         }
 
@@ -93,128 +92,8 @@ h3 {
     color: rgb(255, 255, 255);
 }
 
-@media (max-width:1441px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1440px;
-            }
-        }
-    }
-}
-@media (max-width:1300px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1300px;
-            }
-        }
-    }
-}
-@media (max-width:1200px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1200px;
-            }
-        }
-    }
-}
-@media (max-width:1150px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1150px;
-            }
-        }
-    }
-}
-@media (max-width:1125px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1125px;
-            }
-        }
-    }
-}
-@media (max-width:1100px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1100px;
-            }
-        }
-    }
-}
-@media (max-width:1090px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1090px;
-            }
-        }
-    }
-}
-@media (max-width:1080px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1080px;
-            }
-        }
-    }
-}
-@media (max-width:1070px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1070px;
-            }
-        }
-    }
-}
-@media (max-width:1055px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1055px;
-            }
-        }
-    }
-}
-@media (max-width:1040px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1040px;
-            }
-        }
-    }
-}
-@media (max-width:1030px) {
-    .main{
-        .perf-banner{
-            .banner{
-                width: 1030px;
-            }
-        }
-    }
-}
-@media (max-width:1025px) {
-    .main{
-        .hero{
-            width:1024px;
-            height: auto;
-        }
-        .perf-banner{
-            .banner{
-                width: 1024px;
-                height: auto;
-            }
 
-        }
-    }
+@media (max-width:1025px) {
     .main h3{
         text-align: center;
         margin: 10px;
@@ -223,10 +102,6 @@ h3 {
 
 @media (max-width:769px) {
     .main{
-        .hero{
-            width: 768px;
-            height: auto;
-        }
         .h2-main{
             text-align: center;
         }
@@ -238,21 +113,11 @@ h3 {
                 margin: 5px 0;
             }
         }
-        .perf-banner{
-           .banner{
-            width: 768px;
-            height: auto;
-        } 
-        } 
     }
 }
 
 @media (max-width:426px) {
     .main {
-        .hero {
-            width: 425px;
-            height: 230px;
-        }
 
         .iframe-div {
             margin: auto;
@@ -269,11 +134,6 @@ h3 {
             grid-template-rows: auto;
         }
 
-        .perf-banner .banner {
-            width: 425px;
-            height: 110px;
-        }
-    }
 
     h3 {
         margin-top: 5px;
@@ -282,4 +142,5 @@ h3 {
     .iframe-div iframe {
         width: 420px;
     }
+}
 }
